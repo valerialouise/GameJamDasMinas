@@ -38,7 +38,24 @@
 		},
 		"sound": {
 			"items": [],
-			"subfolders": []
+			"subfolders": [
+				{
+					"items": [
+						{
+							"name": "GamePlay-song_2.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 594343105014242
+						},
+						{
+							"name": "Final-part.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 435859964118256
+						}
+					],
+					"subfolders": [],
+					"name": "gameplay"
+				}
+			]
 		},
 		"music": {
 			"items": [],
@@ -115,7 +132,24 @@
 		},
 		"general": {
 			"items": [],
-			"subfolders": []
+			"subfolders": [
+				{
+					"items": [
+						{
+							"name": "Raposa.png",
+							"type": "image/png",
+							"sid": 673330855062232
+						},
+						{
+							"name": "bg_sketch.png",
+							"type": "image/png",
+							"sid": 566316259074121
+						}
+					],
+					"subfolders": [],
+					"name": "Esboços"
+				}
+			]
 		}
 	},
 	"timelines": {
