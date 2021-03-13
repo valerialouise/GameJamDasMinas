@@ -8,7 +8,13 @@
 	"usedAddons": [],
 	"uniqueId": "5xpg9mq5lkh",
 	"objectTypes": {
+<<<<<<< HEAD
 		"items": [],
+=======
+		"items": [
+			"Raposa"
+		],
+>>>>>>> parent of 1d193dd (posicionando_raposa)
 		"subfolders": []
 	},
 	"autosaveData": null,
