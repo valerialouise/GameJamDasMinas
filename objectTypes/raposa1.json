@@ -1,0 +1,57 @@
+{
+	"name": "Raposa1",
+	"plugin-id": "Sprite",
+	"sid": 193271656060150,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1141,
+						"height": 777,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1480977,
+						"collisionPoly": {
+							"points": [
+								0.020157756354075372,
+								0.029601029601029602,
+								0.5,
+								0.41055341055341055,
+								0.9106047326906223,
+								0.12998712998713,
+								0.9500438212094654,
+								0.5,
+								0.8080631025416302,
+								0.7181467181467182,
+								0.5,
+								0.7335907335907336,
+								0.3041191936897458,
+								0.5521235521235521,
+								0.15775635407537247,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 994246982611351,
+				"name": "Raposa1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
