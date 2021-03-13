@@ -1,5 +1,133 @@
 {
 	"name": "Folha de eventos 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "GUI",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 876480288740147
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Sprite",
+							"sid": 959194986955819,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 874290977671945
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 491447324761479,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "PlayButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "PlayButton",
+							"sid": 989246929684586,
+							"parameters": {
+								"frame-number": "1"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 381293700914926,
+							"parameters": {
+								"layout": "Layout 2"
+							}
+						}
+					],
+					"sid": 573833454190498
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 741324778755164,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "TutorialButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Logo",
+							"sid": 626501903756765,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Sprite",
+							"sid": 588928237972813,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "TutorialButton",
+							"sid": 712343804418718
+						}
+					],
+					"sid": 211736718909024
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 769255813997604,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "ExitButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "close",
+							"objectClass": "Navegador",
+							"sid": 644372964114550
+						}
+					],
+					"sid": 405504795895007
+				}
+			],
+			"sid": 941332965539523
+		}
+	],
 	"sid": 213264623379882
 }
