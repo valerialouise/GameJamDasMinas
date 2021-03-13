@@ -33,8 +33,8 @@
 	"sid": 715393015992677,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 3840,
-	"height": 2160,
+	"width": 1920,
+	"height": 1080,
 	"unboundedScrolling": false,
 	"eventSheet": "Folha de eventos 1"
 }
