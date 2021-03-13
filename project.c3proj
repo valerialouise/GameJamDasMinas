@@ -5,52 +5,10 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [
-		{
-			"type": "plugin",
-			"id": "TiledBg",
-			"name": "Fundo em blocos",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Mouse",
-			"name": "Mouse",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Browser",
-			"name": "Navegador",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		}
-	],
+	"usedAddons": [],
 	"uniqueId": "5xpg9mq5lkh",
 	"objectTypes": {
-		"items": [
-			"Background",
-			"PlayButton",
-			"TutorialButton",
-			"ExitButton",
-			"Logo",
-			"Mouse",
-			"Sprite",
-			"Navegador"
-		],
+		"items": [],
 		"subfolders": []
 	},
 	"autosaveData": null,
